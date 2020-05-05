@@ -1,0 +1,18 @@
+.dropdown {
+  width: 100%;
+
+  .MuiFormLabel-root {
+    background-color: white;
+  }
+
+  .MuiInputBase-root {
+
+    &.Mui-focused .MuiSelect-root {
+      background-color: white;
+    }
+  }
+}
+
+.MuiList-root .MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root[data-value=""] {
+  height: 33px;
+}

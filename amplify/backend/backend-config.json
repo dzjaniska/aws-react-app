@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"covid19fa8bf783": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.date-picker {
+  &.Mui-error .MuiInputBase-root {
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #e53935;
+    }
+
+    &.Mui-focused {
+      border-color: green;
+    }
+  }
+
+  .error-message {
+    color: #e53935;
+  }
+}

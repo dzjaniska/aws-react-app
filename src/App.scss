@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+
+  body {
+    height: 100%;
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  .MuiContainer-root.vertical-gutters {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    @media (min-width: 600px) {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+  ul, li {
+    list-style: none;
+  }
+
+  .MuiButtonBase-root.MuiButton-outlinedPrimary, .MuiButtonBase-root.MuiButton-contained {
+    min-width: 120px;
+    margin: 8px auto;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
