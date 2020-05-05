@@ -61,7 +61,7 @@ const Dashboard = props => {
                         user={user}
                 />
                 <main className={classes.content}>
-                    <PerfectScrollbar options={{suppressScrollX: true}}>
+                    <PerfectScrollbar>
                         {props.children}
                     </PerfectScrollbar>
                 </main>
